@@ -10,3 +10,5 @@ I've developed this game for my Object Oriented Programming course in 2012. It w
 - Ability to redo the last move (after undone)
 - Game clock and play clock
 
+##Observations
+- Please make sure you include the libraries (as .jar files) contained in libs/google-gson-2.2.4 into your project. It's used for encoding and decoding Json files from/to ArrayLists and other features.
