@@ -28,6 +28,7 @@ public class Horse extends Piece
         ArrayList<Point> candidate_movements = new ArrayList<Point>(); 
         
         candidate_movements.add(new Point((int) this.getPosition().getX()-1, (int) this.getPosition().getY()+2));
+        candidate_movements.add(new Point((int) this.getPosition().getX()-1, (int) this.getPosition().getY()-2));
         candidate_movements.add(new Point((int) this.getPosition().getX()+1, (int) this.getPosition().getY()+2));
         candidate_movements.add(new Point((int) this.getPosition().getX()-2, (int) this.getPosition().getY()+1));
         candidate_movements.add(new Point((int) this.getPosition().getX()+2, (int) this.getPosition().getY()+1));
